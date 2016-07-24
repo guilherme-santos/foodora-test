@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+
+<?php
+
+require __DIR__ . '/../autoload.php';
+
+use Foodora\Console\Application;
+use Foodora\Console\Command\PatchCommand;
+use Foodora\Console\Command\UnpatchCommand;
+
+$application = new Application();
+$application->add(new PatchCommand());
+$application->add(new UnpatchCommand());
+$application->run();
