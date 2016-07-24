@@ -5,7 +5,7 @@ To run use:
 make patch 
 ```
 
-or 
+then 
 
 ```
 make unpatch 
