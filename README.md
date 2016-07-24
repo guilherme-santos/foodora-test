@@ -1,6 +1,6 @@
 # Foodora Test
 
-To run use:
+To run, use:
 ```
 make patch 
 ```
